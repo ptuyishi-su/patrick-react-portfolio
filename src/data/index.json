@@ -1,0 +1,27 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "src": "./img/placeholder-image.png",
+            "title": "Traveling App",
+            "description": "A traveling app that brings together luxuary and elagance of traveling",
+            "backgroundColor": "#90EE90" 
+        },
+        {
+            "id": 2,
+            "src": "./img/placeholder-image.png",
+            "title": "Subaru Replica",
+            "description": "A traveling app that brings together luxuary and elagance",
+            "backgroundColor": "#90EE90" 
+
+        },
+        {
+            "id": 3,
+            "src": "./img/placeholder-image.png",
+            "title": "Sport Recruit",
+            "description": "A traveling app that brings togetherluxuary and elagance",
+            "backgroundColor": "#90EE90" 
+
+        }
+    ]
+}
