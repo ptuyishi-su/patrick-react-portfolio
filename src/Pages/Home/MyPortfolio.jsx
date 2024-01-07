@@ -14,7 +14,6 @@ export default function MyPortfoliio (){
                             className="portfolio--section--card"
                             // style={{ backgroundColor: item.backgroundColor }}
                         >
-
                             <div className="portfolio--section--img">
                                 <img src={item.src} alt="Traveling-App" />
                             </div>

@@ -4,12 +4,12 @@ export default function HeroSection (){
             <div className="hero--section--box">
                 <div className="hero--section--content">
                     <p className="text-lg">Hello, I’m Patrick Tuyishime</p>
-                    <div className="hero--section--title--img">
+                    <div className="hero--section--title">
                         <h1>Creative</h1>
                         <img className="Hero--image" src="img/hero_img.png" alt="Patrick Profile" />
                     </div>
                     <div>
-                        <h1>&lt;/&gt;Designer</h1>
+                        <h1 className="title--designer">&lt;/&gt;Designer</h1>
                     </div>
                     <div className="hero--section--headline">
                         <div className="hero--headline-img">

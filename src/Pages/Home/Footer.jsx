@@ -9,24 +9,24 @@ export default function Footer() {
                     <img src="/img/hero_img.png" alt="Patrick Profile" className="footer-hero"/>
                     <h1 className="footer--title">Say Hello.</h1>
                     <div className="footer--email">
-                        <a href="">
-                            <p>Ptuyishi@syr.edu</p>
+                        <a  href="mailto:Ptuyishi@syr.edu">
+                            <p className="text-medium">Ptuyishi@syr.edu</p>
                         </a>
                     </div>
                     <div className="footer--socials">
                         <ul className="footer-social-links">
                             <li>
-                                <a href="">
+                                <a href="https://github.com/ptuyishi-su">
                                     <img src="/img/github.svg" alt="linkedin Icon" />
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="https://www.linkedin.com/in/patricktuyishime/">
                                         <img src="/img/linkedin.svg" alt="linkedin Icon" />
                                     </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="https://www.behance.net/patricktuyishi2">
                                     <img src="/img/behance.svg" alt="linkedin Icon" />
                                 </a>
                             </li>
