@@ -25,7 +25,7 @@ export default function MyPortfoliio (){
                                     {item.description}
                                 </p>
                                 <div className="discover--link">
-                                <a href="" className="read--more--link">
+                                <a href={item.link} className="read--more--link">
                                     <p className="text-sm">
                                         Read More
                                     </p>

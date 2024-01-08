@@ -19,7 +19,7 @@ export default function AboutMe () {
                             key={index}
                             className="my--skills--card">
                                 <img src={item.src} alt="skill--image" />
-                                <h4 className="skill--description"> I am a {item.title} </h4>
+                                <h4 className="skill--description">{item.title} </h4>
                                 <p>{item.description}</p>
                                 <p> Dev Tools</p>
                                 <div className="skills--tools">

@@ -6,7 +6,7 @@ export default function Work() {
     return (
         <>
             <NavBar />
-            <h1>Work</h1>
+            
         </>
     );
 }

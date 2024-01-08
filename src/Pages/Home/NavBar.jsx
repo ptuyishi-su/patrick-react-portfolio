@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom"
+import { useState, useEffect } from "react";
+
 export default function NavBar () {
     return (
         <div className="navbar--section">
@@ -22,9 +24,9 @@ export default function NavBar () {
                                 </Link>
                             </li>
                             <li className="navbar--contact">
-                                <Link to="/ContactPage">
-                                    Contact
-                                </Link>
+                                <a href="https://www.linkedin.com/in/patricktuyishime/">
+                                    LinkedIn
+                                </a>
                             </li>
                             <li className="navbar--resume">
                             <a href="https://drive.google.com/file/d/10XtCkx2VAVkGFr7j0cMw3ssE7L5Xxa0y/view" target="_blank" rel="noopener noreferrer">

@@ -7,6 +7,7 @@ body {
     font-style: normal;
     background: var(--bg-shade);
   }
+
 h1,
 h2,
 h3,
@@ -374,6 +375,8 @@ line-height: 37.4px;
     display: flex;
 }
 .skill--description {
-    padding: 0 24px 30px 24px;
+    padding: 0 20px 30px 24px;
 }
-
+.work body {
+    background-color: red;
+}

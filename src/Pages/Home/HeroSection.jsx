@@ -1,3 +1,6 @@
+
+import { Link } from "react-router-dom";
+
 export default function HeroSection (){
     return (
         <section className="hero--section" id="HeroSection">
@@ -25,12 +28,12 @@ export default function HeroSection (){
                             <p className="text-md">
                                 creative websites.
                             </p>
-                            <a href="" className="read--more--link">
+                            <Link to="/About" className="read--more--link">
                                 <p className="text-sm">
                                     Read More
                                 </p>
                                 <img src="img/arrow.png" alt="" />
-                            </a>
+                            </Link>
                            
                         </div>
                     </div>
