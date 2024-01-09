@@ -1,4 +1,5 @@
 import data from "../../data/index.json"
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function MyPortfoliio (){
     return (
@@ -15,7 +16,7 @@ export default function MyPortfoliio (){
                             // style={{ backgroundColor: item.backgroundColor }}
                         >
                             <div className="portfolio--section--img">
-                                <img src={item.src} alt="Traveling-App" />
+                                <LazyLoadImage src={item.src} alt="Traveling-App" />
                             </div>
                             <div className="portfolio--section--card--content">
                                 <h3 className="project--section--title">
@@ -29,7 +30,7 @@ export default function MyPortfoliio (){
                                     <p className="text-sm">
                                         Read More
                                     </p>
-                                    <img src="img/arrow.png" alt="" />
+                                    <LazyLoadImage src="img/arrow.png" alt="" />
                                 </a>
                                 </div>
 

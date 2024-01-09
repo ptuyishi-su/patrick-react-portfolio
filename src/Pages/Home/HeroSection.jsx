@@ -1,5 +1,7 @@
 
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 
 export default function HeroSection (){
     return (
@@ -9,15 +11,15 @@ export default function HeroSection (){
                     <p className="text-lg">Hello, I’m Patrick Tuyishime</p>
                     <div className="hero--section--title">
                         <h1>Creative</h1>
-                        <img className="Hero--image" src="img/hero_img.png" alt="Patrick Profile" />
+                        <LazyLoadImage className="Hero--image" src="img/hero_img.png" alt="Patrick Profile" />
                     </div>
-                    <div>
+                    <div className="designer">
                         <h1 className="title--designer">&lt;/&gt;Designer</h1>
                     </div>
                     <div className="hero--section--headline">
-                        <div className="hero--headline-img">
-                            <img src="img/spin-icon.png" alt="" />
-                        </div>
+                        {/* <div className="hero--headline-img">
+                            <LazyLoadImage src="img/spin-icon.png" alt="" />
+                        </div> */}
                         <div className="hero--headline--description">
                             <p className="text-md">
                                 A creative designer with a passion<br/> 
@@ -32,7 +34,7 @@ export default function HeroSection (){
                                 <p className="text-sm">
                                     Read More
                                 </p>
-                                <img src="img/arrow.png" alt="" />
+                                <LazyLoadImage src="img/arrow.png" alt="read more icon" />
                             </Link>
                            
                         </div>

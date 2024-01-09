@@ -83,6 +83,7 @@ h3 {
   /* Hero section starts */
 .hero--section {
     background: var(--bg-shade); 
+    
 }
 .hero--section--box {
     display: flex;
@@ -98,6 +99,9 @@ h3 {
     height: auto;
     object-fit: contain;
     display: inline-block;
+    position: absolute; 
+    padding: 0 0 0 550px;
+    
 }
 /* Hero Headline starts */
 .hero--section--headline {
@@ -117,10 +121,16 @@ h3 {
     gap: 30px;
 }
 
-.hero--headline-img img{
+/* .hero--headline-img img{
     width: 200px;
     height: auto;
     flex-shrink: 0;
+} */
+.read--more--link img{
+    position: absolute;
+    padding: 0 0 0 100px;
+    transition: ease-in-out .2s;
+
 }
 .read--more--link {
     display: flex;
@@ -128,9 +138,11 @@ h3 {
     align-items: center;
     text-decoration: none;
     transition: gap 0.3s ease;
+    display: flex;
 }
-.read--more--link:hover {
-    gap: 30px;    
+
+.read--more--link img:hover {
+    padding: 0 0 0 110px;
 }
 /* Hero Section & Headline ends */
 
@@ -170,6 +182,24 @@ h3 {
     font-weight: 500;
     font-size: 1rem;
 }
+.menu--open img{
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+    padding: 0 19px;
+}
+.menu--open {
+    position: relative;
+    width: 48px; /* Adjust the size of the circle */
+    height: 48px; /* Adjust the size of the circle */
+    border: 2px solid black; /* Border color for the circle */
+    border-radius: 50%; /* Creates a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
 /* NavBar style ends */
 
 /* My Portfolio starts */
@@ -200,8 +230,9 @@ h3 {
     height: 580px;
     object-fit: cover;
     border-radius: 20px;
-    transition:  1s 
-
+    transition:  1s;
+   
+    
 
 }
 
@@ -380,3 +411,4 @@ line-height: 37.4px;
 .work body {
     background-color: red;
 }
+
