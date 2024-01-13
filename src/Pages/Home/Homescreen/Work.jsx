@@ -4,9 +4,9 @@ import Footer from '../Footer';
 
 export default function Work() {
     return (
-        <>
-            <NavBar />
-            
+        <>   
+            <Footer />
+         
         </>
     );
 }
