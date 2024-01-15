@@ -15,11 +15,13 @@ export default function NavBar () {
         
         <nav className="navbar">
             <ul className="sidebar">
-                <li ><a href=""><img src="img/close-x.svg" alt="close menu icon" /></a></li>
-                <li> <a href="/work">Work</a></li>
-                <li> <a href="/About">About</a></li>
-                <li> <a href="#">LinkedIn</a></li>
-                <li> <a href="#">Resume</a></li>
+                <div className="sidebar--buttons">
+                    <li  className="sidebar--close"><a href=""><img src="img/close-x.svg" alt="close menu icon" /></a></li>
+                    <li> <a href="/work">Work</a></li>
+                    <li> <a href="/About">About</a></li>
+                    <li> <a href="#">LinkedIn</a></li>
+                    <li> <a href="#">Resume</a></li>
+                </div>
             </ul>
             <ul>
                 <li className="nav--logo"> <a href="/Home"><img src="img/logo.png" alt="site logo" /></a></li>

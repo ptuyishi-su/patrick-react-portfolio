@@ -30,7 +30,7 @@ p {
   /* Global css */
 /* H1 Heading */
 h1 {
-    font-size: 140px;
+    font-size: 150px;
     font-weight: 560;
     line-height: 140% ;
 }
@@ -94,14 +94,10 @@ h3 {
 .hero--section--title{
     display: flex;
 }
-.Hero--image {
+.hero--image {
     width: 210px;
     height: auto;
-    object-fit: contain;
     display: inline-block;
-    position: absolute; 
-    padding: 0 0 0 550px;
-    z-index: 0; 
     
 }
 /* Hero Headline starts */
@@ -112,6 +108,9 @@ h3 {
     align-self: center;
     padding: 218px 0 0 0;
     gap: 80px;
+}
+.hero--headline--call{
+    line-height: 3.375rem;
 }
 .hero--headline--description {
     font-size: 30px;
@@ -128,8 +127,6 @@ h3 {
     flex-shrink: 0;
 } */
 .read--more--link img{
-    position: absolute;
-    padding: 0 0 0 100px;
     transition: ease-in-out .2s;
 
 }
@@ -140,10 +137,18 @@ h3 {
     text-decoration: none;
     transition: gap 0.3s ease;
     display: flex;
+    
 }
 
 .read--more--link img:hover {
-    padding: 0 0 0 110px;
+    padding: 0 0 0 30px;
+}
+.read--more--link p {
+    transition: ease-in-out .2s;
+
+}
+.read--more--link p:hover {
+    letter-spacing: 1.2px;
 }
 /* Hero Section & Headline ends */
 
@@ -198,10 +203,33 @@ nav li:first-child {
     box-shadow: -10px 0 10px rgb(0, 0, 0, 0.1);
     display: none;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.sidebar--buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 221px;
+    justify-content: center;
+}
+.sidebar--buttons a {
     font-size: 60px;
 }
+.sidebar--close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.sidebar--close img {
+    width: 45px;
+    height: auto;
+}
+.sidebar--buttons li:hover {
+    color: var(--heading-color);
+}
+
 .menu-close{
     display: none;
 }
@@ -215,21 +243,6 @@ nav a {
     color: inherit;  
     font-weight: 500;
     font-size: 1rem;
-}
-@media (max-width:1090px){
-    .nav--button {
-        display: none;
-    }
-    .menu-close {
-        display: block;
-    }
-
-}
-@media (max-width:490px){
-    .sidebar {
-        width: 100%;
-        height: 100%;
-    }
 }
 /* NavBar style ends */
 
@@ -443,4 +456,79 @@ line-height: 37.4px;
 .work body {
     background-color: red;
 }
+/* Responsive styling starts */
+@media (max-width:980px){
+    .nav--button {
+        display: none;
+    }
+    .menu-close {
+        display: block;
+    }
+    h1 {
+        font-size: 96px;
+        font-weight: 440;
+    }
+    .hero--image{
+        width: 130px;
+        height: auto;
+    }
+    .text-lg {
+        font-size: 28px;
+        font-weight: 200;
+    }
+    .text-md {
+        font-size: 28px;
+        font-weight: 200;
+    }
+    .hero--section--headline {
+        display: flex;
+        object-fit: contain;
+        align-items: center;
+        align-self: center;
+        padding: 39px 0 0 0;
+        gap: 80px;
+    }
+    .hero--headline-call {
+        font-size: 28px;
+    }
+    .hero--section--box {
+        padding: 120px 130px;
+    }
 
+}
+@media (max-width:490px){
+    .sidebar {
+        width: 100%;
+        height: 100%;
+    }
+    h1 {
+        font-size: 58px;
+        font-weight: 440;
+    }
+    .hero--image{
+        width: 100px;
+        height: auto;
+    }
+    .text-lg {
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .line-name{
+        padding: 30px 0;
+    }
+    .text-md {
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .hero--section--headline {
+        display: flex;
+        object-fit: contain;
+        align-items: center;
+        align-self: center;
+        padding: 39px 0 0 0;
+        gap: 80px;
+    }
+    .hero--headline-call {
+        font-size: 28px;
+    }
+}

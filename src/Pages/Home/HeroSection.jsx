@@ -8,10 +8,10 @@ export default function HeroSection (){
         <section className="hero--section" id="HeroSection">
             <div className="hero--section--box">
                 <div className="hero--section--content">
-                    <p className="text-lg">Hello, I’m Patrick Tuyishime</p>
+                    <p className="text-lg line-name">Hello, I’m Patrick Tuyishime</p>
                     <div className="hero--section--title">
                         <h1>Creative</h1>
-                        <LazyLoadImage className="Hero--image" src="img/hero_img.png" alt="Patrick Profile" />
+                        <LazyLoadImage className="hero--image" src="img/hero_img.png" alt="Patrick Profile" />
                     </div>
                     <div className="designer">
                         <h1 className="title--designer">&lt;/&gt;Designer</h1>
@@ -21,13 +21,13 @@ export default function HeroSection (){
                             <LazyLoadImage src="img/spin-icon.png" alt="" />
                         </div> */}
                         <div className="hero--headline--description">
-                            <p className="text-md">
+                            
+                            <p className="text-md hero--headline--call">
                                 A creative designer with a passion<br/> 
-                            </p>
-                            <p className="text-md">
+                            
                                 for crafting visual experiences and<br/>
-                            </p>
-                            <p className="text-md">
+                            
+                           
                                 creative websites.
                             </p>
                             <Link to="/About" className="read--more--link">

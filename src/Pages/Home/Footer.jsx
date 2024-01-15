@@ -19,17 +19,17 @@ export default function Footer() {
                         <ul className="footer-social-links">
                             <li>
                                 <a href="https://github.com/ptuyishi-su">
-                                    <LazyLoadImage src="/img/github.svg" alt="linkedin Icon" />
+                                    <LazyLoadImage src="/img/github.svg" alt="github Icon button to Patrick's github accounts " />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/in/patricktuyishime/">
-                                        <LazyLoadImage src="/img/linkedin.svg" alt="linkedin Icon" />
+                                        <LazyLoadImage src="/img/linkedin.svg" alt="linkedin Icon button to patrick's LinkedIn account" />
                                     </a>
                             </li>
                             <li>
                                 <a href="https://www.behance.net/patricktuyishi2">
-                                    <LazyLoadImage src="/img/behance.svg" alt="linkedin Icon" />
+                                    <LazyLoadImage src="/img/behance.svg" alt="Behance Icon button to patricks behance account" />
                                 </a>
                             </li>
                         </ul>
