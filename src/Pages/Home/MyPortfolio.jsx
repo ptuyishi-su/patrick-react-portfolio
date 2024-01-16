@@ -1,4 +1,5 @@
 import data from "../../data/index.json"
+import React from "react"; 
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function MyPortfoliio (){
@@ -16,22 +17,19 @@ export default function MyPortfoliio (){
                             // style={{ backgroundColor: item.backgroundColor }}
                         >
                             <div className="portfolio--section--img">
-                                <LazyLoadImage src={item.src} alt="Traveling-App" />
+                                <LazyLoadImage src={item.src} alt="Traveling-App" height={400}/>
                             </div>
                             <div className="portfolio--section--card--content">
+                            {/* fix this later to include the project logo in the json data file */}
+                            <LazyLoadImage src="img/pikipiki-logo.svg" alt="project logo and title" height={50} className="portfolio-logo" />
                                 <h3 className="project--section--title">
                                     {item.title}
                                 </h3>
                                 <p className="projection--section--description">
                                     {item.description}
                                 </p>
-                                <div className="discover--link">
-                                <a href={item.link} className="read--more--link">
-                                    <p className="text-sm">
-                                        Read More
-                                    </p>
-                                    <LazyLoadImage src="img/arrow.png" alt="" />
-                                </a>
+                                <div className="roles-skills">
+                                    {item.experience}
                                 </div>
 
                             </div>

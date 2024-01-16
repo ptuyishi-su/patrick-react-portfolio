@@ -2,17 +2,20 @@
     "skills": [
         {
             "id": 1,
-            "src": "./img/placeholder-image.png",
-            "title": "Traveling App",
+            "src": "./img/Frame 43.png",
+            "additionalSrc":"img/project-logo.png",
+            "experience":"UX DESIGN // FUTURE VISION // INTERNSHIP",
+            "title": "Traveling App ",
             "description": "A traveling app that brings together luxuary and elagance of traveling",
             "backgroundColor": "#90EE90",
-            "link": "/Work" 
-            
+            "link": "/Work"
             
         },
         {
             "id": 2,
             "src": "./img/placeholder-image.png",
+            "additionalSrc":"img/project-logo.png",
+            "experience":"WEB DEVELOPMENT // REACT // GRAPHSQL",
             "title": "Subaru Replica",
             "description": "A traveling app that brings together luxuary and elagance",
             "backgroundColor": "#90EE90",
@@ -22,6 +25,8 @@
         {
             "id": 3,
             "src": "./img/placeholder-image.png",
+            "additionalSrc":"img/project-logo.png",
+            "experience":"UX DESIGN // FUTURE VISION // INTERNSHIP",
             "title": "Sport Recruit",
             "description": "A traveling app that brings togetherluxuary and elagance",
             "backgroundColor": "#90EE90",
