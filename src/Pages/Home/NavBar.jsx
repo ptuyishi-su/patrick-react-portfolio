@@ -19,8 +19,8 @@ export default function NavBar () {
                     <li  className="sidebar--close"><a href=""><img src="img/close-x.svg" alt="close menu icon" /></a></li>
                     <li> <a href="/work">Work</a></li>
                     <li> <a href="/About">About</a></li>
-                    <li> <a href="#">LinkedIn</a></li>
-                    <li> <a href="#">Resume</a></li>
+                    <li> <a href="https://www.linkedin.com/in/patricktuyishime/">LinkedIn</a></li>
+                    <li> <a href="https://drive.google.com/file/d/10XtCkx2VAVkGFr7j0cMw3ssE7L5Xxa0y/view?usp=sharing">Resume</a></li>
                 </div>
             </ul>
             <ul>
