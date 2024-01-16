@@ -28,7 +28,7 @@ export default function NavBar () {
                 <div className="nav--buttons">
                 <li className="nav--button"> <a href="/work">Work</a></li>
                 <li className="nav--button"> <a href="/About">About</a></li>
-                <li className="nav--button"> <a href="www.linkedin.com/in/patricktuyishime">LinkedIn</a></li>
+                <li className="nav--button"> <a href="https://www.linkedin.com/in/patricktuyishime/">LinkedIn</a></li>
                 <li className="nav--button"> <a href="https://drive.google.com/file/d/10XtCkx2VAVkGFr7j0cMw3ssE7L5Xxa0y/view?usp=sharing">Resume</a></li>
                 </div>
                 <li 
