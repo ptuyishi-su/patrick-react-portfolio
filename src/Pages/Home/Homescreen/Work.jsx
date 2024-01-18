@@ -5,7 +5,8 @@ import Footer from '../Footer';
 export default function Work() {
     return (
         <>   
-            <Footer />
+        <h1> workpage</h1>
+            {/* <Footer /> */}
          
         </>
     );

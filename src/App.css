@@ -253,7 +253,6 @@ nav a {
     width: 100vw;
     padding: 0 0;
     margin: 0;
-
     display: flex;
     justify-content: center;
 }
@@ -261,12 +260,15 @@ nav a {
     display: flex;
     gap: 30px;
     align-items:  center;
+    margin: 100px 0;
+    border-bottom: #e5e6ec dashed ;
 }
 .portfolio--section--card img {
     width: auto;
     transition: all ease 1s;
     /* height: 400px; */
 }
+
 .portfolio--section--card img:hover:not(.portfolio-logo) {
     transform: translate(0, -40px);
 }
@@ -274,7 +276,20 @@ nav a {
     padding: 156px 0 6px 0;
 }
 .project--section--title {
-    padding: 0 0 10px 0;
+    padding: 0 0 3px 0;
+}
+
+.project--section--link {
+    text-decoration: none;
+    color: black;
+    transition: all ease-in-out .6s;
+  }
+.project--section--link:hover {
+    color: #FF5A5F;
+}
+.projection--section--description{
+    width: 500px;
+    
 }
 .roles-skills{
     padding: 10px 0 0 0;
@@ -282,6 +297,10 @@ nav a {
     font-size: 11px;
     letter-spacing: 2px;
 }
+#skill-2  {
+    background-color: red;
+}
+
 
 
 
