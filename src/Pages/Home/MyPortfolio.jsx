@@ -19,12 +19,12 @@ export default function MyPortfoliio (){
                         >
                             <div className="portfolio--section--img">
                             <a href={item.link}>
-                                <LazyLoadImage src={item.src} alt="Traveling-App" height={400}/>
+                                <LazyLoadImage src={item.src[0]} alt="projects picture display" height={400}/>
                             </a>
                             </div>
                             <div className="portfolio--section--card--content">
                             {/* fix this later to include the project logo in the json data file */}
-                            <LazyLoadImage src="img/pikipiki-logo.svg" alt="project logo and title" height={50} className="portfolio-logo" />
+                            <LazyLoadImage src={item.src[1]} alt="project logo and title" height={50} className="portfolio-logo" />
                             <a href={item.link} className="project--section--link">
                                 <h3 className="project--section--title">
                                     {item.title}

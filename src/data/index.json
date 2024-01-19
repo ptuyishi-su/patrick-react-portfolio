@@ -2,8 +2,7 @@
     "skills": [
         {
             "id": 1,
-            "src": "./img/Frame 43.png",
-            "logo-src":"img/pikipiki-logo.svg",
+            "src": ["./img/Frame 43.png","./img/pikipiki-logo.svg"],
             "experience":"UX/UI DESIGN // FUTURE VISION // FIGMA",
             "title": "Traveling App ",
             "description": "A traveling app that brings together luxuary and elagance of traveling",
@@ -15,21 +14,19 @@
         },
         {
             "id": 2,
-            "src": "./img/subaru.png",
-            "logo-src":"./img/subaru-logo.webp",
+            "src": ["./img/subaru.png","./img/subaru-logo.webp" ],
             "experience":"WEB DEVELOPMENT // NEXT // GRAPHSQL",
-            "title": "Subaru Replica",
+            "title": "Subaru Redesign",
             "description": "Explore Subaru's exceptional cars, crossovers & SUVs including Outback, Ascent and Crosstrek. View photos, specs, compare models, and build ",
             "backgroundColor": "#90EE90",
-            "link": "/Work",
+            "link": "https://ist363-spring2023-nextjs.vercel.app/vehicles",
             "gradient-color": "004890" 
 
 
         },
         {
             "id": 3,
-            "src": "./img/placeholder-image.png",
-            "logo-src":"./img/subaru-logo.webp",
+            "src": ["./img/potentiality.png","./img/potentiality-logo.svg"],
             "experience":"UX/UI DESIGN // PROJECT MANAGEMENT // INTERNSHIP",
             "title": "Sport Recruit",
             "description": "Get recruited and find scholarships on POTENTIALITY. Athletes, coaches and teams connect on FieldLevel to build relationships and find opportunities to reach the next level.",

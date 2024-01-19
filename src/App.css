@@ -111,6 +111,12 @@ h3 {
 }
 .hero--headline--call{
     line-height: 3.375rem;
+    font-size: 25px;
+
+}
+.hero--headline--description{
+    width: 850px;
+    font-size: 28px;
 }
 .hero--headline--description {
     font-size: 30px;
@@ -278,7 +284,7 @@ nav a {
     transform: translate(0, -40px);
 }
 .portfolio--section--title{
-    padding: 156px 0 6px 0;
+    padding: 156px 0 6px 30px;
 }
 .project--section--title {
     padding: 0 0 3px 0;
@@ -290,7 +296,7 @@ nav a {
     transition: all ease-in-out .6s;
   }
 .project--section--link:hover {
-    color: #FF5A5F;
+    /* color: #FF5A5F; */
 }
 .projection--section--description{
     width: 500px;
@@ -529,6 +535,13 @@ line-height: 37.4px;
 
 }
 @media (max-width:490px){
+    .hero--headline--description{
+        width: 350px;
+        font-size: 28px;
+    }
+    .hero--headline--call{
+        line-height: 2.375rem;}
+    
     .sidebar {
         width: 100%;
         height: 100%;
