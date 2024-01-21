@@ -5,7 +5,7 @@ import Footer from '../Footer';
 export default function Work() {
     return (
         <>   
-            {/* <section className='pikipiki--section'>
+            <section className='pikipiki--section'>
                 <div className='project--section--box'>
                     <div className='project--section--header'>
                         <div className='project--header--description'>
@@ -78,9 +78,8 @@ export default function Work() {
                     </main>
 
                 </div>
-            </section> */}
-            <h1>Page under Cosntruction</h1>
-            <Footer />
+            </section>
+            {/* <Footer /> */}
          
         </>
     );

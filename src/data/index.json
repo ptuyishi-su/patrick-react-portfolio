@@ -7,7 +7,7 @@
             "title": "Traveling App ",
             "description": "A traveling app that brings together luxuary and elagance of traveling",
             "backgroundColor": "#90EE90",
-            "link": "/Work",
+            "link": "/Pikipiki",
             "gradient-color": "FF5A5F" 
 
             
@@ -29,9 +29,9 @@
             "src": ["./img/potentiality.png","./img/potentiality-logo.svg"],
             "experience":"UX/UI DESIGN // PROJECT MANAGEMENT // INTERNSHIP",
             "title": "Sport Recruit",
-            "description": "Get recruited and find scholarships on POTENTIALITY. Athletes, coaches and teams connect on FieldLevel to build relationships and find opportunities to reach the next level.",
+            "description": "Get recruited and find scholarships on POTENTIALITY. Athletes, coaches and teams connect to build relationships and find opportunities to reach the next level.",
             "backgroundColor": "#90EE90",
-            "link": "/Work",  
+            "link": "/Potentiality",  
             "gradient-color": "1E2027" 
 
 

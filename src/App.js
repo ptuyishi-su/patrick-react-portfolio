@@ -7,6 +7,8 @@ import Home from "./Pages/Home/Homescreen";
 import ContactPage from "./Pages/Home/Homescreen/ContactPage";
 import Work from "./Pages/Home/Homescreen/Work";
 import About from "./Pages/Home/Homescreen/About";
+import Pikipiki from "./Pages/Home/Homescreen/Pikipiki.jsx";
+import Potentiality from "./Pages/Home/Homescreen/Potentiality.jsx"
 
 function App() {
   return (
@@ -20,8 +22,8 @@ function App() {
               <Route path="/ContactPage" element={<ContactPage />}></Route>
               <Route path="/Work" element={<Work />}></Route>
               <Route path="/About" element={<About />}></Route>
-
-
+              <Route path="/Pikipiki" element={<Pikipiki/>}></Route>
+              <Route path="/Potentiality" element={<Potentiality/>}></Route>
               <Route path="" element={<div>404 Not Found</div>}></Route>
             </Routes>
           </div>
