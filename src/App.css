@@ -19,7 +19,7 @@ p {
 }
 :root {
     --heading-color: #282938;
-    --bg-shade: #FEE6E4;
+    --bg-shade: #f7ebeb;
     --blue-shade: #CCE8FF;
     --green-shade: #CCFFDA;
     --pink-shade: #FFBDB9;
@@ -416,24 +416,39 @@ nav a {
 }
 .my--background--headline {
     color: var(--heading-color);
-    border-bottom: 2px solid black;
     transition: ease 1s;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+
 }
 .my--background--headline:hover {
     letter-spacing: 3px;
 }
 .my--background--description {
-    width: 700px;
+    width: 630px;
     padding: 30px 0;
     
 }
 .my--background--description p {
-    text-align: center;
-font-family: Outfit;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 37.4px; 
+    text-align: flex;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 37.4px; 
+}
+.description-text{
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--darkblue);
+}
+.description--img--divider{
+    display: flex;
+    gap: 90px;
+    align-self: center;
 }
 .my--skills {
     display: flex;
@@ -442,10 +457,11 @@ line-height: 37.4px;
     height: 587px;
     flex-shrink: 0;
     color: #3A3D53;
+    
 
 }
 .my--skills--card {
-    background: var(--blue-shade);
+    /* background: var(--blue-shade); */
     border-radius: 30px 30px 30px 30px;
     display: flex;
     flex-direction: column;

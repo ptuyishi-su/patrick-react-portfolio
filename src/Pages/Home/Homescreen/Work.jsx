@@ -1,87 +1,43 @@
-import React from 'react';
-import NavBar from '../NavBar';
-import Footer from '../Footer';
+import React from "react"
+import { Link } from "react-router-dom"
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
-export default function Work() {
+
+export default function Footer() {
     return (
-        <>   
-            {/* <section className='pikipiki--section'>
-                <div className='project--section--box'>
-                    <div className='project--section--header'>
-                        <div className='project--header--description'>
-                            <header>
-                                <h2>PIKIPIKI</h2>
-                                <p>The App where traveling is simple and easy</p>
-                                <p className="bold--heading">Project Overview</p>
-                                <p>The Project objective was to to design a mobile app that showcases travel destinations and allows the user to book all the necessary travel accommodations to get there.</p>
-                            </header>
-                        </div>
-                        <div className='project--header--img'>
-                            <img src="./img/pikipiki-header.png" alt="project image showing the homepage" height={665.98} />
-                        </div>
+        <section className="footer--section" id="myFooter">
+            <div className="footer--section--container">
+                <div className="footer--content">
+                    {/* <LazyLoadImage src="/img/hero_img.png" alt="Patrick Profile" className="footer-hero"/> */}
+                    <h1 className="footer--title">Page Under</h1>
+                    <h1 className="footer--title">Construction</h1>
+                    <div className="footer--email">
+                        <a  href="mailto:Ptuyishi@syr.edu">
+                            <p className="text-medium">Ptuyishi@syr.edu</p>
+                        </a>
                     </div>
-                    <main>
-                        <div className='project--problem--solution'>
-                            <div className='project--problem'>
-                                <p className="bold--heading">Problem</p>
-                                <p>Many travelers face challenges in efficiently planning and booking their entire journey, often struggling with fragmented and time-consuming processes when searching for flights, hotels, and rental cars across multiple platforms. The lack of a unified and user-friendly mobile solution results in frustration and increased decision-making time.</p>
-                            </div>
-                            <div className='project--solution'>
-                                <p className="bold--heading">Solution</p>
-                                <p>Our mobile app aims to streamline the travel planning and booking experience by providing a comprehensive and visually appealing platform. By integrating flights, hotels, and rental cars into a single app, users can effortlessly explore, compare, and book all necessary accommodations.</p>
-
-                            </div>
-                        </div>
-                        <div className="project--design--solutions">
-                            <div className='ux--solutions'>
-                                <p className="bold--heading"> UX Solution</p>
-                                <ul>
-                                    <li>Unified User Journey: Implement a consistent navigation flow that guides users seamlessly through each step.</li>
-                                    <li>Unified User Journey: Implement a consistent navigation flow that guides users seamlessly through each step.</li>
-                                    <li>Unified User Journey: Implement a consistent navigation flow that guides users seamlessly through each step.</li>
-                                    <li>Unified User Journey: Implement a consistent navigation flow that guides users seamlessly through each step.</li>
-                                    
-                                </ul>
-
-                            </div>
-                            <div className='ui--solutions'>
-                                <p className="bold--heading">UI Solutions</p>
-                            <ul>
-                                    <li>Unified User Journey: Implement a consistent navigation flow that guides users seamlessly through each step.</li>
-                                    <li>Unified User Journey: Implement a consistent navigation flow that guides users seamlessly through each step.</li>
-                                    <li>Unified User Journey: Implement a consistent navigation flow that guides users seamlessly through each step.</li>
-                                    <li>Unified User Journey: Implement a consistent navigation flow that guides users seamlessly through each step.</li>
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="project--goods">
-                            <div>
-                                <div><p>53</p></div>
-                                <div><p>screens</p></div>
-
-                            </div>
-                            <div>
-                                <div><p>100+</p></div>
-                                <div><p>Hours of project discovery,<br/>definition, development,<br/>and delivery</p></div>
-                            </div>
-                            <div>
-                                <div><p>43</p></div>
-                                <div><p>Flexible Components</p></div>
-                            </div>
-                        </div>
-                        <div className='screen--display'>
-                            <img src="./img/homescreens.png" alt="preview of app screens" height={534} />
-                            <img src="./img/homescreens.png" alt="preview of app screens" height={534} />
-                            <img src="./img/homescreens.png" alt="preview of app screens" height={534} />
-                        </div>
-                    </main>
-
+                    <div className="footer--socials">
+                        <ul className="footer-social-links">
+                            <li>
+                                <a href="https://github.com/ptuyishi-su">
+                                    <LazyLoadImage src="/img/github.svg" alt="github Icon button to Patrick's github accounts " />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/patricktuyishime/">
+                                        <LazyLoadImage src="/img/linkedin.svg" alt="linkedin Icon button to patrick's LinkedIn account" />
+                                    </a>
+                            </li>
+                            <li>
+                                <a href="https://www.behance.net/patricktuyishi2">
+                                    <LazyLoadImage src="/img/behance.svg" alt="Behance Icon button to patricks behance account" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
                 </div>
-            </section> */}
-            <h1>Page under Cosntruction</h1>
-            <Footer />
-         
-        </>
-    );
+            </div>
+        </section>
+    )
 }

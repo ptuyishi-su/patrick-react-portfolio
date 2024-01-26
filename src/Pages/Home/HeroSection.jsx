@@ -23,8 +23,8 @@ export default function HeroSection (){
                         <div className="hero--headline--description">
                             
                             <p className="text-md hero--headline--call">
-                                I'm a junior Front-End Developer and designer based in New 
-                                York, currently studying Information Management and Technology, with a strong interest in UI/UX design. I'm commited to creating visually stunning and user friendly experiences. I'm looking forward to exploring new opportunities to enhance my skills.
+                                I’m a passionate web developer with a keen eye for design and a dedication to creating seamless user experiences with stunning UI design. My journey in web development has allowed me to wear multiple hats - from coding the front-end magic to designing the UI solutions.
+                                I'm looking forward to exploring new opportunities to enhance my skills.
                             </p>
                             <Link to="/About" className="read--more--link">
                                 <p className="text-sm">

@@ -40,7 +40,7 @@
     "modes": [
         {
             "id": 1,
-            "src": "./img/code-icon.png",
+            "src": "./img/design-icon.png",
             "title": "Designer",
             "description": "I value simple content structure, clean design patterns, and thoughtful interactions.",
             "tasks": ["UX", "UI", "Web", "Apps"],
@@ -50,10 +50,10 @@
         {
             "id": 1,
             "src": "./img/code-icon.png",
-            "title": "Web Developer",
+            "title": "Developer",
             "description": "I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
             "tasks": ["UX", "UI", "Web", "Apps"],
-            "tools": ["Figma", "Sketch", "Webflow"]
+            "tools": ["React.js","Javascript", "Sass","npm", "Git", "GitHub"]
         }
     ]
 }
