@@ -13,10 +13,11 @@ export default function AboutMe () {
                         </div>
                         <div className="description--img--divider">
                             <div className="my--background--description">
-                                <p className="text-md">
+                                <p className='text-medium'>
                                 I am Patrick, a third-year student studying Information Technology with a concentration in Web Development and Project Management at Syracuse University. I explore all disciplines related to user design and enjoy projects with dynamic learning opportunities, where I can collaborate with experienced professionals and actively contribute to hands-on project development. I am especially eager to immerse myself in cross-functional teams and create ethical and inclusive designs. I believe in staying updated with the latest technology and always strive to push the boundaries of my skills. </p>
-                                <p className="description-text">specialties</p>
-                                <ul className="description-text">
+                                
+                                <ul className='specialty'>
+                                    <li>Specialties:</li>
                                     <li>User Experience/User Interface Design</li>
                                     <li>React</li>
                                     <li>Javascript</li>
