@@ -8,7 +8,7 @@ export default function Footer() {
         <section className="footer--section" id="myFooter">
             <div className="footer--section--container">
                 <div className="footer--content">
-                    {/* <LazyLoadImage src="/img/hero_img.png" alt="Patrick Profile" className="footer-hero"/> */}
+                    <LazyLoadImage src="/img/technologist.png" alt="Patrick Profile" className="footer-hero"/>
                     <h1 className="footer--title">Say Hello.</h1>
                     <div className="footer--email">
                         <a  href="mailto:Ptuyishi@syr.edu">
