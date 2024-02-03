@@ -56,7 +56,7 @@ export default function Work() {
                                     <p className='text-medium'>Our mobile app aims to streamline the travel planning and booking experience by providing a comprehensive and visually appealing platform. By integrating flights, hotels, and rental cars into a single app, users can effortlessly explore, compare, and book all necessary accommodations.</p>
                                 </div>
                                 <div className='problem--image'>
-                                    <img src="./img/group 59.png" alt="project image showing the homepage" width={600}/>
+                                    <img src="./img/group 59.png" alt="project image showing the homepage"  width="800"></img>
                                 </div>
                             </div>
                             
