@@ -121,17 +121,17 @@ export default function Work() {
                         </div>
                         <div className='project--problem project--small'>
                                 <div className='problem-description'>
-                                    <img src="/img/screenshot1.png" alt="screenshort image showing high fidelity screens" height={500}/>
+                                    <img src="/img/screenshot-1.png" alt="screenshort image showing high fidelity screens" height={500}/>
 
                                 </div>
                                 <div className='problem-description'>
-                                    <img src="/img/screenshot2.png" alt="screenshort image showing high fidelity screens" height={500}/>
+                                    <img src="/img/screenshot-2.png" alt="screenshort image showing high fidelity screens" height={500}/>
                                 </div>
                                 <div className='problem-description'>
-                                    <img src="/img/screenshot3.png" alt="screenshort image showing high fidelity screens" height={500}/>
+                                    <img src="/img/screenshot-3.png" alt="screenshort image showing high fidelity screens" height={500}/>
                                 </div>
                                 <div className='problem-description'>
-                                    <img src="/img/screenshot5.png" alt="screenshort image showing high fidelity screens" height={500}/>
+                                    <img src="/img/screenshot-5.png" alt="screenshort image showing high fidelity screens" height={500}/>
                                 </div>
                         </div>
                         <p className="bold--heading">Personal Takeaway 🤔: </p>
