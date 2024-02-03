@@ -56,9 +56,8 @@ export default function Work() {
                                     <p className='text-medium'>Our mobile app aims to streamline the travel planning and booking experience by providing a comprehensive and visually appealing platform. By integrating flights, hotels, and rental cars into a single app, users can effortlessly explore, compare, and book all necessary accommodations.</p>
                                 </div>
                                 <div className='problem--image'>
-
-                                <img src="./img/pikipiki-header.png" alt="project image showing the homepage" height={500} />
                                 </div>
+                                <img src="./img/pikipiki-header.png" alt="project image showing the homepage" height={500} />
                             </div>
                             
                         </div>
@@ -79,6 +78,7 @@ export default function Work() {
                                 </div>
                                 <div className='problem--image'>
                                     <img src="./img/group 60.png" alt="project image showing the homepage" width={600}/>
+                                    <img src="./img/group 60.png" alt="project image showing the homepage" width={600} />
                                 </div>
                             </div>
                         </div>
