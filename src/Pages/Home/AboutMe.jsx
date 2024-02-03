@@ -8,15 +8,16 @@ export default function AboutMe () {
             <div className="my--background--box">
                 <div className="my--backgound--content">
                     <div className="my--background--img-text">
-                        <div className= "my--background--headline">
-                            <h2>Hi, there.</h2>
-                        </div>
+                       
                         <div className="description--img--divider">
                             <div className="my--background--description">
+                            <div className= "my--background--headline">
+                            <h2>Hi, there.</h2>
+                        </div>
                                 <p className='text-medium'>
-                                I am Patrick, a third-year student studying Information Technology with a concentration in Web Development and Project Management at Syracuse University. I explore all disciplines related to user design and enjoy projects with dynamic learning opportunities, where I can collaborate with experienced professionals and actively contribute to hands-on project development. I am especially eager to immerse myself in cross-functional teams and create ethical and inclusive designs. I believe in staying updated with the latest technology and always strive to push the boundaries of my skills. </p>
+                                I am Patrick, a third-year student studying Information Technology with a concentration in Web Development and Project Management at Syracuse University. I explore disciplines related to user design and enjoy projects with dynamic learning opportunities, where I can collaborate with experienced professionals and actively contribute to hands-on project development. I am especially eager to join a cross-functional team and create ethical and inclusive designs. I believe in staying updated with the latest technology and always strive to push the boundaries of my skills. </p>
                                 
-                                <ul className='specialty'>
+                                {/* <ul className='specialty'>
                                     <li>Specialties:</li>
                                     <li>User Experience/User Interface Design</li>
                                     <li>React</li>
@@ -24,7 +25,7 @@ export default function AboutMe () {
                                     <li>Figma + Sketch</li>
                                     <li>Sass</li>
                                     <li>Git</li>
-                                </ul>
+                                </ul> */}
                             </div>
                             <div className="background--img">
                                 <img src="./img/back--img.png" alt="Patrick's profile image smiling with sunset background" height={463} />

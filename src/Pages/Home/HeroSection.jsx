@@ -11,7 +11,7 @@ export default function HeroSection (){
                     <p className="text-lg line-name">Hello, I’m Patrick Tuyishime</p>
                     <div className="hero--section--title">
                         <h1>Creative</h1>
-                        <LazyLoadImage className="hero--image" src="img/hero_img.png" alt="Patrick Profile" />
+                        <LazyLoadImage className="hero--image" src="img/hero_img3.png" alt="Patrick Profile" />
                     </div>
                     <div className="designer">
                         <h1 className="title--designer">&lt;/&gt;Designer</h1>

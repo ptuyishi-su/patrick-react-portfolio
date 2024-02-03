@@ -18,14 +18,14 @@ export default function MyPortfoliio (){
                             // style={{ backgroundColor: item.backgroundColor }}
                         >
                             <div className="portfolio--section--img">
-                            <a href={item.link}>
+                            <a href={item.link} target= {item.target} >
                                 <LazyLoadImage src={item.src[0]} alt="projects picture display" height={400}/>
                             </a>
                             </div>
                             <div className="portfolio--section--card--content">
                             {/* fix this later to include the project logo in the json data file */}
                             <LazyLoadImage src={item.src[1]} alt="project logo and title" height={50} className="portfolio-logo" />
-                            <a href={item.link} className="project--section--link">
+                            <a href={item.link} target= {item.target} className="project--section--link">
                                 <h3 className="project--section--title">
                                     {item.title}
                                 </h3>
