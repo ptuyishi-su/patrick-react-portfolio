@@ -77,9 +77,8 @@ export default function Work() {
                                     <li>Dynamic Onboarding</li>
                                 </div>
                                 <div className='problem--image'>
-                                    <img src="./img/group 60.png" alt="project image showing the homepage" width={600}/>
-                                    <img src="./img/group 60.png" alt="project image showing the homepage" width={600} />
-                                </div>
+                                    <img src="./img/group 60.png" alt="project image     ing the homepage" height={320} />
+                        </div>
                             </div>
                         </div>
                         <div className='project--problem--solution clean-border'>
