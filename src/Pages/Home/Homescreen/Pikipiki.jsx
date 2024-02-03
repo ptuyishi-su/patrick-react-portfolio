@@ -77,14 +77,14 @@ export default function Work() {
                                     <li>Dynamic Onboarding</li>
                                 </div>
                                 <div className='problem--image'>
-                                    <img src="./img/group 60.png" alt="project image     ing the homepage" height={320} />
+                                    <img src="./img/Group-60.png" alt="project image     ing the homepage" height={245} />
                         </div>
                             </div>
                         </div>
                         <div className='project--problem--solution clean-border'>
                             <div className='project--problem'>
                                 <div className='problem--image'>
-                                        <img src="./img/group 62.png" alt="project image showing the homepage" width={600}/>
+                                        <img src="./img/group-62.png" alt="project image showing the homepage" width={600}/>
                                 </div>
                                 <div className='problem-description '>
                                     <p className="bold--heading">Ideation</p>
