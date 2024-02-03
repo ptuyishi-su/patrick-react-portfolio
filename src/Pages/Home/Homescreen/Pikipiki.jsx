@@ -115,23 +115,23 @@ export default function Work() {
                                     <p className='text-medium'>Visual design played a pivotal role in the app design, as it greatly influenced user perception, engagement, and usability. Aesthetic appeal and intuitive layouts made complex travel plans more accessible and appealing to users, enhancing their overall experience.</p>
                                 </div>
                                 <div className='problem--image'>
-                                        <img src="./img/group 64.png" alt="project image showing the homepage" width={600}/>
+                                        <img src="./img/group 64.png" alt="screenshort image showing high fidelity screens" width={600}/>
                                 </div>
                             </div>
                         </div>
                         <div className='project--problem project--small'>
                                 <div className='problem-description'>
-                                    <img src="./img/screenshot1.png" alt="" height={500}/>
+                                    <img src="./img/screenshot1.png" alt="screenshort image showing high fidelity screens" height={500}/>
 
                                 </div>
                                 <div className='problem-description'>
-                                    <img src="./img/screenshot2.png" alt="" height={500}/>
+                                    <img src="./img/screenshot2.png" alt="screenshort image showing high fidelity screens" height={500}/>
                                 </div>
                                 <div className='problem-description'>
-                                    <img src="./img/screenshot3.png" alt="" height={500}/>
+                                    <img src="./img/screenshot3.png" alt="screenshort image showing high fidelity screens" height={500}/>
                                 </div>
                                 <div className='problem-description'>
-                                    <img src="./img/screenshot5.png" alt="" height={500}/>
+                                    <img src="./img/screenshot5.png" alt="screenshort image showing high fidelity screens" height={500}/>
                                 </div>
                         </div>
                         <p className="bold--heading">Personal Takeaway 🤔: </p>
