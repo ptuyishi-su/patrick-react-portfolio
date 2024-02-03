@@ -115,7 +115,7 @@ export default function Work() {
                                     <p className='text-medium'>Visual design played a pivotal role in the app design, as it greatly influenced user perception, engagement, and usability. Aesthetic appeal and intuitive layouts made complex travel plans more accessible and appealing to users, enhancing their overall experience.</p>
                                 </div>
                                 <div className='problem--image'>
-                                        <img src="./img/group 64.png" alt="screenshort image showing high fidelity screens" width={600}/>
+                                        <img src="./img/group-64.png" alt="screenshort image showing high fidelity screens" width={600}/>
                                 </div>
                             </div>
                         </div>
