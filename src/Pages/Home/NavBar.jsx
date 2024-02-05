@@ -35,6 +35,7 @@ export default function NavBar () {
                     onClick={showSidebar}               className="menu-close">
                         <a href="#">
                             <img src="img/menu-bars.svg" alt="menu icon" />
+                            
                         </a>
                 </li>
             </ul>

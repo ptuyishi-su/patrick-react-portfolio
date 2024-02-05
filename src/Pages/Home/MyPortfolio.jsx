@@ -2,20 +2,37 @@ import data from "../../data/index.json"
 import { Link } from "react-router-dom";
 import React from "react"; 
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { delay, motion } from 'framer-motion';
 
-export default function MyPortfoliio (){
+const loadingAnimation = {
+    hidden: {
+        y: 40, opacity: 0
+    },
+    visible: {
+         y: -10, opacity: 1 ,
+        transition: { delay: .1},
+        
+    }
+};
+export default function MyPortfolio (){
     return (
         <section className="portfolio--section" id="myPortfolio">
             <div className="portfolio--section--box">
-                <div className="portfolio--section--title">
-                    <h3>Recent Work</h3>
-                </div>
+                <motion.div className="portfolio--section--title"
+                    
+                >
+                    <h3 
+                    >Recent Work
+                    </h3>
+                </motion.div>
                 <div className="portfolio--section--display">
                     {data?.skills?.map((item, index) => (
-                        <div 
+                        <motion.div
                             key={index} 
                             className="portfolio--section--card"
-                            // style={{ backgroundColor: item.backgroundColor }}
+                            variants={loadingAnimation} 
+                            initial="hidden"
+                            whileInView = "visible"
                         >
                             <div className="portfolio--section--img">
                             <a href={item.link} target= {item.target} >
@@ -38,7 +55,7 @@ export default function MyPortfoliio (){
                                 </div>
 
                             </div>
-                        </div>
+                        </motion.div>
                     ))}
                 </div>
                 
