@@ -23,15 +23,9 @@ export default function HeroSection (){
                         <div className="hero--headline--description">
                             
                             <p className="text-md hero--headline--call">
-                                I’m a passionate web developer with a keen eye for design and a dedication to creating seamless user experiences with stunning UI design. My journey in web development has allowed me to wear multiple hats - from coding the front-end magic to designing the UI solutions.
-                                I'm looking forward to exploring new opportunities to enhance my skills.
+                                I’m a passionate web developer with a keen eye for design and a dedication to creating seamless user experiences with stunning UI design. My journey in web development has allowed me to wear multiple hats - from coding the front-end magic to designing the UI solutions. I'm looking forward to exploring new opportunities and creating experiences that simplify, uplift, and nurture human connection.
                             </p>
-                            <Link to="/About" className="read--more--link">
-                                <p className="text-sm">
-                                    Read More
-                                </p>
-                                <LazyLoadImage src="img/arrow.png" alt="read more icon" />
-                            </Link>
+                            
                            
                         </div>
                     </div>

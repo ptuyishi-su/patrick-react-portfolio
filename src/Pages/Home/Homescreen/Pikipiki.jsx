@@ -13,7 +13,8 @@ export default function Work() {
                                 <h2> PIKI<span className="red-text">PIKI</span></h2>
                                 <p className='text-medium'>Traveling made simple and accessible</p>
                                 <p className="bold--heading"> Project Overview</p>
-                                <p className='text-medium'>The Project objective was to to design a mobile app that showcases travel destinations and allows the user to book all the necessary travel accommodations to get there.</p>
+                                <p className='text-medium'>The Project goal is to design a comprehensive mobile app that inspires wanderlust while also empowering users to effortlessly plan and organize their trips with ease and convenience.
+                                </p>
                                 <a  className='project--final-link' target="_blank" href="https://www.figma.com/proto/LDJNEXa5rfuanUL3BCkZJy/Patrick-Travel?page-id=3%3A2&type=design&node-id=3-3&viewport=310%2C381%2C0.07&t=MDas0q6Iv7OqP0qM-1&scaling=scale-down&starting-point-node-id=3%3A3">View Final Design 🔗</a>
                             </header>
                         </div>
@@ -30,19 +31,20 @@ export default function Work() {
                                 <div className='problem-description'>
                                     <p><strong>Role</strong></p>
                                     <p className='text-medium'>User Research</p>
-                                    <p className='text-medium'>Hi-Fidelity Design</p>
-                                    <p className='text-medium'>User Research</p>
+                                    <p className='text-medium'>UI Designer</p>
+                                    <p className='text-medium'></p>
 
 
                                 </div>
                                 <div className='problem-description'>
                                     <p><strong>Project Length</strong></p>
-                                    <p className='text-medium'>4 Weeks</p>
+                                    <p className='text-medium'>6 Weeks</p>
 
                                 </div>
                                 <div className='problem-description'>
                                     <p><strong>Tools Used</strong></p>
                                     <p className='text-medium'>Figma</p>
+
 
                                 </div>
                         </div>
