@@ -9,6 +9,7 @@ import Work from "./Pages/Home/Homescreen/Work";
 import About from "./Pages/Home/Homescreen/About";
 import Pikipiki from "./Pages/Home/Homescreen/Pikipiki.jsx";
 import Potentiality from "./Pages/Home/Homescreen/Potentiality.jsx"
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
             </Routes>
           </div>
         </Router>
+        <Analytics />
+
     </div>
   );
 }
