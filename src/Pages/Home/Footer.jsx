@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="footer--section--container">
                 <div className="footer--content">
                     {/* <LazyLoadImage src="/img/technologist.png" alt="Patrick Profile" className="footer-hero"/> */}
-                    <h1 className="footer--title">Say Hello.</h1>
+                    <h1 className="footer--title">Get in Touch!</h1>
                     <div className="footer--email">
                         <a  href="mailto:Ptuyishi@syr.edu">
                             <p className="text-medium">Ptuyishi@syr.edu</p>
